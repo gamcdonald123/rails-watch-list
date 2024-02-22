@@ -1,2 +1,16 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.list-card {
+  font-size: 32px;
+  margin: 15px;
+  border: 1px solid #0D6EFD;
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(127, 178, 255);
+  color: white;
+}
+
+.list-card-container {
+  margin-top: 50px;
+}
