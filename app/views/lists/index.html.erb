@@ -3,15 +3,12 @@
     <a class="nav-link active text-white" aria-current="page" href="#">Lists</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="#">Bookmarks</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link text-white" href="#">Movies</a>
   </li>
 </ul>
 
 <div class="d-flex flex-wrap justify-content-center text-center list-card-container">
   <% @lists.each do |list| %>
-    <div class="col-6 list-card"><%= list.name %></div>
+    <div class="col-6 list-card"><%= link_to list.name, list_path(list) %></div>
   <% end %>
 </div>
