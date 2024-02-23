@@ -14,3 +14,25 @@
 .bookmark-in-list {
   margin-bottom: 40px;
 }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), asset-url('felix-mooneeram-evlkOfkQ5rE-unsplash.jpg');
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.list-card-container {
+  margin: 40px;
+}
